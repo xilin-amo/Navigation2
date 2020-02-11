@@ -1,0 +1,7 @@
+1、在fragment的xml文本中可以直接修改layout标签将其变成熟悉的constraint layout
+
+2、navigate可以传递目标地fragment也可以传递切换字段,传递的参数不同，切换字段可以触发aciton
+
+3、fragment之间传递参数需要用navigate的第二个参数，参数类型为bundle；
+
+4、在navigation的action切换时要将传递参数的代码写在button监听器里，不然会丢失参数
